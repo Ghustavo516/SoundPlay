@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap" rel="stylesheet">
+    <script src="musica.js"></script>
+    <title>Alok</title>
+</head>
+<body>
+    <audio src="Music/Alok - Alive (It Feels Like).mp3"></audio>
+    <nav>
+        <div class="menu-options">
+            <span>DISCOVER</span>
+            <span>MY LYBRARY</span>
+            <span>RADIO</span>
+        </div>
+        <input type="text" placeholder="Músicas, Podcast, Shows" class="search-bar">
+        <img src="Images/user.jpg" alt="user" class="user">
+    </nav>
+
+    <div class="image-singler-container"></div>
+    <div class="name-singer-container">
+        <span class="name-singer">Alok</span>
+        <div class="principal-button-container">
+            <button class="play-music" onclick="reproduzir()">Play</button>
+            <button class="Follow">Follow</button>
+        </div>
+    </div>
+    <div class="player-music-container">
+        <div class="Information-music">
+            <img src="Images/Alok-Alive-Image.jpg" alt="capa musica" class="image-music">
+            <h1 class="name-music">Alive (It Feels Like)</h1>
+            <h1 class="name-s">Alok</h1>
+        </div>
+        <div class="player-controls">
+            <img src="Images/back-button.png" alt="voltar" class="back-button"> 
+            <img src="Images/circle.png" alt="circle-play" class="circle-play">
+            <img src="Images/play.png" alt="voltar" id="pause" onclick="reproduzir()">
+            <img src="Images/next-button.png" alt="proximo" class="next-button">
+        </div>
+        <div class="time-music">
+            <h1 class="start-music">0:00</h1>
+            <div class="time-player"></div>
+            <div class="time-player-now"></div>
+            <div class="indicator-time-music"></div>
+            <h1 class="end-music">2:21</h1>
+        </div>
+
+        <div class="control-sound">
+            <img src="Images/shuffle.png" alt="aleatorio" class="aleatorio">
+            <img src="Images/sound.png" alt="volume" class="volume">
+            <div class="volume-max-indicator"></div>
+            <div class="volume-indicator-now"></div>
+            <div class="indicator-volume"></div>
+        </div>
+    </div>
+    <div class="history-singer">
+        <h1 class="biografia">Biografia</h1>
+        <ul class="history">
+            <li>Alok Achkar Peres Petrillo é um DJ e produtor musical brasileiro. Nascido em Goiânia, viveu na cidade somente até os 5 anos. Depois, morou na Holanda, Inglaterra, Alto Paraíso (GO) e Brasília, acompanhando o pai. Alok é filho de Ekanta e Swarup, que também são DJs e pioneiros no ramo da música eletrônica no Brasil. A ideia para o seu nome, que significa "luz" em sânscrito, nasceu de uma viagem dos pais para a Índia.</li>
+            <li>Na vida pessoal, se casou aos pés do monumento do Cristo Redentor com a médica Romana Novais em janeiro de 2019. No mesmo mês do ano seguinte, o casal comemora o nascimento do primeiro filho, Ravi. E em julho de 2020 anuncia a segunda gravidez, agora de uma menina, nascida de forma prematura em 3 de dezembro.</li>
+            <li>Seu irmão gêmeo, Bhaskar, também é artista de música eletrônica. Aos 12 anos começou a se interessar mais profundamente pela música, ao ganhar um par de CDJs e um mixer. Com o apoio dos pais e outros produtores e DJs aprendeu técnicas de mixagem e, poucos anos depois, começou a se apresentar profissionalmente. Chegou a começar a faculdade de relações internacionais, mas trancou o curso para viver de música.</li>
+            <li>As músicas que produz têm uma pegada techno mixada com o groove da house music. Nos anos de 2014 e 2015 foi considerado, pela revista de música eletrônica "House Mag Brasil" o "Melhor DJ do Brasil". Em 2015 a revista britânica "DJ Magazine" concedeu a Alok o mesmo título. Em 2016 se apresentou em vários países em todos os continentes e espalhou o estilo que ficou conhecido como "Brazilian Bass", do qual é pioneiro.</li>
+            <li>No mesmo ano, assinou contratos com a Spinning Records e William Morris (WME). Com a canção "Hear Me Now", lançada em 2016, Alok alcançou a marca de 10 milhões de visualizações no YouTube em apenas um mês e se tornou o primeiro artista brasileiro a conseguir 100 milhões de execuções no Spotify.</li>
+            <li>Em 2017, fez uma participação no filme "Eu fico loko", que conta a história do youtuber Christian Figueiredo, com Giovanna Grigio e Thomaz Costa no elenco. No mesmo ano, Alok foi eleito pela revista "Forbes Brasil" como uma das 91 pessoas com menos de 30 anos mais influentes do país. O</li>
+            <li>DJ se tornou badalado entre as celebridades. Foi cotado para tocar no casamento da atriz Marina Ruy Barbosa com o empresário Xande Negrão e anunciou parceria musical com a cantora Anitta.</li>
+        </ul>
+    </div>
+    <div class="rodape">
+        <h1 class="autor">© Copyright: Gustavo Rodrigues</h1>
+    </div>
+</body>
+</html>
